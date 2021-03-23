@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Iwaku</title>
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet'
+    type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+
+  <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/arrow.css">
+  <link rel="stylesheet" href="css/styleContent.css">
+  <link rel="icon" href="images/logo title.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+  <div id="body">
+
+    <nav id="myNav">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">
+        <a href="index.html">
+          <img src="images/Logo 2.png" alt="">
+        </a>
+      </label>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="toko.html">Toko</a></li>
+        <li class="buton"><a href="login.html">Log In</a></li>
+        <li class="button"><a href="register.html">Sign Up</a></li>
+      </ul>
+    </nav>
+
+    <a onclick="thisClicked(0)" id="feedback"><i class="far fa-envelope"></i></a>
+
+    <div class="jumbotron slider">
+      <div class="content" id="content">
+        <h1>Apakah anda suka dengan <span class="highlight"> ikan ?</span> <br> ikan konsumsi atau hias <br> Anda
+          <span class="highlight">berkunjung</span> di website yang tepat !</h1>
+        <div class="luar-indikator">
+          <div class="indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <span class="button"><a href="register.html">Daftar Sekarang</a></span>
+      </div>
+    </div>
+
+    <div class="containerr">
+      <div class="">
+        <div class="fitur-judul flex">
+          <h2>Fitur yang anda dapatkan</h2>
+          <p>Di bawah ini adalah fitur-fitur yang ada ada pada aplikasi ini. Semua fitur dapat anda daptakan apabila
+            anda
+            register akun lalu konfirmasi ke email anda.</p>
+        </div>
+        <hr>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="images/home/call center.png" alt="" />
+        </div>
+        <div class="contentBx">
+          <h2>Call center</h2>
+          <p>
+            Anda dapat menelfon orang yang ingin anda mintai penjelasan terkait apa yang anda inginkan
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="images/home/diskusi.png" alt="" />
+        </div>
+        <div class="contentBx">
+          <h2>Form pengaduan</h2>
+          <p>
+            Terdapat room diskusi yang berguna bagi para pemula atau yang masih merintis usaha untuk bertanya dan
+            dapat
+            dijawab oleh siapapun
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="images/home/user frienly.png" alt="" />
+        </div>
+        <div class="contentBx">
+          <h2>User friendly</h2>
+          <p>
+            Aplikasi ini mudah untuk dipahamai fitur-fiturnya dengan memberi icon yang dapat diidentifikasi dengan
+            mudah</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="images/home/group.png" alt="" />
+        </div>
+        <div class="contentBx">
+          <h2>Penjualan ikan</h2>
+          <p>
+            Hampir sekitar lima ratusan petani sukses yang telah join disini untuk membantu anda dalam menyelesaikan
+            permasalahan anda
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="images/home/berita.png" alt="" />
+        </div>
+        <div class="contentBx">
+          <h2>Berita</h2>
+          <p>Kami jufga menyampiakan berita terkini terkait perikanan. Mulai dari harga panen, petani yang sukses,
+            dll
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="images/home/tutoraial.png" alt="" />
+        </div>
+        <div class="contentBx">
+          <h2>Transaksi mudah</h2>
+          <p>
+            Ada banyak tutorial yang dapat membantu anda dalam menyelsaikan masalah anda. Dari tutorail yang sangat
+            mendasar sampai tips dalam menghadapi dunia pasar internasional
+          </p>
+        </div>
+      </div>
+    </div>
+    <div style="padding: 0 5rem;">
+      <div class="maincontent-area">
+        <!-- <div class="zigzag-bottom"></div> -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="latest-product">
+                <h2 class="section-title">Latest Products</h2>
+                <div class="product-carousel">
+                  <div class="single-product">
+                    <div class="product-f-image">
+                      <img src="images/produk/obat3.jpg" alt="">
+                      <div class="product-hover">
+                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                        <a href="toko.html" class="view-details-link"><i class="fa fa-link"></i> See
+                          details</a>
+                      </div>
+                    </div>
+
+                    <h2><a href="toko.html">Obat 1 - Toko barokah</a></h2>
+
+                    <div class="product-carousel-price">
+                      <ins>$700.00</ins> <del>$800.00</del>
+                    </div>
+                  </div>
+                  <div class="single-product">
+                    <div class="product-f-image">
+                      <img src="images/produk/obat2.jpg" alt="">
+                      <div class="product-hover">
+                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                        <a href="toko.html" class="view-details-link"><i class="fa fa-link"></i> See
+                          details</a>
+                      </div>
+                    </div>
+
+                    <h2><a href="toko.html">Obat 2 - Toko barokah</a></h2>
+                    <div class="product-carousel-price">
+                      <ins>$899.00</ins> <del>$999.00</del>
+                    </div>
+                  </div>
+                  <div class="single-product">
+                    <div class="product-f-image">
+                      <img src="images/produk/obat3.jpg" alt="">
+                      <div class="product-hover">
+                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                        <a href="toko.html" class="view-details-link"><i class="fa fa-link"></i> See
+                          details</a>
+                      </div>
+                    </div>
+
+                    <h2><a href="toko.html">Obat 6 - Toko barokah</a></h2>
+
+                    <div class="product-carousel-price">
+                      <ins>$400.00</ins> <del>$425.00</del>
+                    </div>
+                  </div>
+                  <div class="single-product">
+                    <div class="product-f-image">
+                      <img src="images/produk/obat2.jpg" alt="">
+                      <div class="product-hover">
+                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                        <a href="toko.html" class="view-details-link"><i class="fa fa-link"></i> See
+                          details</a>
+                      </div>
+                    </div>
+
+                    <h2><a href="toko.html">Obat 3 - Toko barokah</a></h2>
+
+                    <div class="product-carousel-price">
+                      <ins>$200.00</ins> <del>$225.00</del>
+                    </div>
+                  </div>
+                  <div class="single-product">
+                    <div class="product-f-image">
+                      <img src="images/produk/obat3.jpg" alt="">
+                      <div class="product-hover">
+                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                        <a href="toko.html" class="view-details-link"><i class="fa fa-link"></i> See
+                          details</a>
+                      </div>
+                    </div>
+
+                    <h2><a href="toko.html">Obat 4 - Toko barokah</a></h2>
+
+                    <div class="product-carousel-price">
+                      <ins>$1200.00</ins> <del>$1355.00</del>
+                    </div>
+                  </div>
+                  <div class="single-product">
+                    <div class="product-f-image">
+                      <img src="images/produk/obat2.jpg" alt="">
+                      <div class="product-hover">
+                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                        <a href="toko.html" class="view-details-link"><i class="fa fa-link"></i> See
+                          details</a>
+                      </div>
+                    </div>
+
+                    <h2><a href="toko.html">Obat 4 - Toko barokah</a></h2>
+
+                    <div class="product-carousel-price">
+                      <ins>$400.00</ins>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- End main content area -->
+    </div>
+
+    <div class="jumbotron2 flex">
+      <!-- <div class="zigzag-bottom"></div> -->
+      <div class="content">
+        <h1>Dapatkan Informasi Terbaru Disini ...!</h1>
+        <p>Banyak sekali informasi yang sangat informaif dan bermanfaat untuk anda. Informasi sangat banyak sekali dan
+        </p>
+        <br>
+        <span class="button"><a href="berita.html">Cari Berita</a></span>
+      </div>
+    </div>
+
+    <div class="berita">
+      <div class="container">
+
+        <div class="judul-berita flex">
+          <h2>Berita perikanan</h2>
+          <p>Puluhan informasi tentang perikanan yang terkini dapat anda dapatkan dengan mudah hanya dengan register
+            lalu
+            login dengan menggunakan akun yang telah anda daftarkan. Puluhan informasi tentang perikanan yang terkini
+            dapat anda dapatkan dengan mudah hanya dengan register lalu
+            login dengan menggunakan akun yang telah anda daftarkan.</p>
+        </div>
+
+        <div class="card-berita">
+          <div class="card">
+            <div class="thumbil">
+              <img src="./images/home-ikan/berita 1.jpg" alt="">
+            </div>
+            <a href="">
+              <span>
+                <h5><i class="far fa-eye"></i> 10</h5>
+              </span>
+            </a>
+            <div class="text">
+              <h1>215 Ekor Ikan Dilindungi Selamat dari Tangan Pedagang di Pontianak</h1>
+              <small>Kamis, 15 Okteber 2020</small>
+              <hr>
+              <p>Kementerian Kelautan dan Perikanan (KKP) melalui Direktorat Jenderal Pengawasan Sumber Daya Kelautan
+                dan Perikanan (PSDKP). . . .</p>
+            </div>
+            <div class="read-more flex">
+              <a href="#">
+                <h2>Read more ...</h2>
+              </a>
+              <a href="#">
+                <i class="far fa-arrow-alt-circle-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="thumbil">
+              <img src="./images/home-ikan/berita 2.jpg" alt="">
+            </div>
+            <a href="">
+              <span>
+                <h5><i class="far fa-eye"></i> 23</h5>
+              </span>
+            </a>
+            <div class="text">
+              <h1>Laut Banda Jadi Sumber Ikan Tuna Terbesar di Dunia</h1>
+              <small>Rabu, 14 Okteber 2020</small>
+              <hr>
+              <p>Indonesia memiliki sumber daya ikan yang melimpah, bahkan memiliki wilayah dengan sumber ikan tuna
+                terbesar di dunia. . . .</p>
+            </div>
+            <div class="read-more flex">
+              <a href="#">
+                <h2>Read more ...</h2>
+              </a>
+              <a href="#">
+                <i class="far fa-arrow-alt-circle-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="thumbil">
+              <img src="./images/home-ikan/berita 3.jpeg" alt="">
+            </div>
+            <a href="">
+              <span>
+                <h5><i class="far fa-eye"></i> 32</h5>
+              </span>
+            </a>
+            <div class="text">
+              <h1>Bangun 14 Sentra Perikanan di Era Susi Pudjiastuti Tak Cukup, KKP Lakukan Ini</h1>
+              <small>Selasa, 13 Okteber 2020</small>
+              <hr>
+              <p>Kementerian Perikanan dan Kelautan (KKP) tengah menyusun pembangunan Sistem Logistik Ikan Nasional
+                (SLIN) di Tanah Air. .
+                . . .</p>
+            </div>
+            <div class="read-more flex">
+              <a href="#">
+                <h2>Read more ...</h2>
+              </a>
+              <a href="#">
+                <i class="far fa-arrow-alt-circle-right"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="footer1 flex">
+      <div class="content">
+        <img src="images/Logo 2.png" alt="">
+        <div class="tulisan">
+          <i>Jalan. Garuda No. 37, Genteng, Banyuwangi, Jawa Timur, 68467, Indonesia</i>
+        </div>
+      </div>
+      <div class="contennnn flex">
+        <div class="content ">
+          <h2>Hubungi kami</h2>
+          <ul>
+            <li>iwaku@gmail.com</li>
+            <li>08212345xxx</li>
+            <li>08212345xxx</li>
+          </ul>
+        </div>
+        <div class="content">
+          <h2>Tautan</h2>
+          <ul>
+            <li><a href="#">Panduan registrasi</a></li>
+            <li><a href="#">Syarat dan ketentuan</a></li>
+            <li><a href="#">Kebijakan kami</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer2 flex">
+      <small>Copyright © 2020 IWAKU corporation. All rights reserved.</small>
+    </div>
+
+  </div>
+  <!-- modalbox -->
+  <div id="popUp1" class="popUp">
+    <div class="wrap-contact100">
+      <form class="contact100-form validate-form">
+        <span class="contact100-form-title">
+          Send Us A Message
+        </span>
+
+        <div class="flex" style="margin-bottom: 1rem;">
+          <div class="send">
+            <i class="pesawat fa fa-paper-plane"></i>
+          </div>
+        </div>
+
+        <div class="wrap-input100 validate-input">
+          <input class="input100" type="text" name="email" placeholder="E-mail">
+          <span class="focus-input100"></span>
+        </div>
+
+        <div class="wrap-input100 validate-input">
+          <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+          <span class="focus-input100"></span>
+        </div>
+
+        <div class="container-contact100-form-btn">
+          <button class="contact100-form-btn">
+            <span>
+              <!-- <i class="fa fa-paper-plane"></i> -->
+              Send
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/global.js"></script>
+
+  <!-- Latest jQuery form server -->
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+
+  <!-- Bootstrap JS form CDN -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <!-- jQuery sticky menu -->
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  <!-- jQuery easing -->
+  <script src="js/jquery.easing.1.3.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
