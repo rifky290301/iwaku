@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forum Diskusi</title>
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/forumDiskusi.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link rel="icon" href="images/LOGO.png" type="image/png">
+
+</head>
+
+<body>
+	<nav id="myNav">
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo">
+			<a href="index.html">
+				<img src="images/Logo 2.png" alt="">
+			</a>
+		</label>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="berita.html">Berita</a></li>
+			<li><a href="toko.html">Toko</a></li>
+			<li><a class="active" href="ruangDiskusi.html">Ruang diskusi</a></li>
+			<li class="buton"><a href="login.html">Log In</a></li>
+			<li class="button"><a href="register.html">Sign Up</a></li>
+		</ul>
+	</nav>
+	<a onclick="thisClicked(0)" id="feedback"><i class="far fa-envelope"></i></a>
+	<div class="header">
+		<div class="teks">
+			<h2>ONLINE DISCUSSION FORUM</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deleniti, voluptas aspernatur voluptatum
+				cupiditate assumenda cum ipsam aperiam. Labore cum aliquid veritatis quo est laborum ullam corrupti
+				placeat maxime officiis.</p>
+		</div>
+		<div class="gambar">
+			<img src="images/forum/undraw_texting_k35o.svg" alt="" srcset="">
+		</div>
+	</div>
+	<div class="garis"></div>
+	<div class="chatting flex">
+		<div id="tombol" class="content">
+			<div class="kategori flex">
+				<a href="#">
+					<div class="card" id="biji">
+						<h2>Biji-Bijian</h2>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card" id="sayuran">
+						<h2>Sayuran</h2>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card" id="umbi">
+						<h2>Umbi</h2>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card" id="buah">
+						<h2>Buah</h2>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card" id="herbal">
+						<h2>Herbal</h2>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div class="percakapan">
+			<div class="judul">
+				<h3>Pemberian pupuk pada tanaman buah jeruk</h3>
+				<p><i> Kamis, 15 Okteber 2020</i></p>
+				<hr>
+			</div>
+			<div class="small-card flex">
+				<div class="deep flex">
+					<img src="./images/bagas.JPG" alt="">
+					<div>
+						<h5>Sukirman</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan">
+				<dev class="kata">
+					<p>Halo,selamat pagi.Saya mau bertanya mengenai kesehatan ikan</p>
+					<ul>
+						<li id="balas"><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+					<textarea name="" id="area" cols="30" rows="10"></textarea>
+				</dev>
+			</div>
+
+			<div class="small-card2 flex" id="jawab">
+				<div class="deep flex">
+					<img src="./images/forum/WhatsApp Image 2020-11-09 at 15.04.03.jpeg" alt="">
+					<div>
+						<h5>Sukijan</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan" id="jawab">
+				<div class="kata">
+					<p>Halo,selamat pagi.Bisa kamu jelaskan apa yang ingin kamu tanyakan ?</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="small-card flex" id="jawab">
+				<div class="deep flex">
+					<img src="./images/forum/WhatsApp Image 2020-11-09 at 15.04.03.jpeg" alt="">
+					<div>
+						<h5>Sukijan</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan" id="jawab">
+				<dev class="kata">
+					<p>Saya punya ikan koi dirumah,jadi akhir-akhir ini koi saya sering lompat ke permukaan,di bagian belakang
+						dekat ekor juga ada bintik merah.Kira-kira koi saya kenapa ya ? Mohon penjelasannya</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+
+			<div class="small-card2 flex">
+				<div class="deep flex">
+					<img src="./images/bagas.JPG" alt="">
+					<div>
+						<h5>Sukirman</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan">
+				<dev class="kata">
+					<p>Dari penjelasan yang kamu berikan.Sepertinya ikan koi kamu terindikasi Kutu Jarum.
+						Kutu jarum atau Kutu Jangkar (Anchor Worm) adalah termasuk jenis parasit yang secara fisik bisa dilihat
+						dengan mata telanjang, karena berukuran cukup besar yaitu 1–1,5 cm.
+						Sebagai upaya pencegahan selain anda harus senantiasa menjaga kualitas air kolam, secara berkala dapat
+						menggunakan dipterex yaitu sejenis insektisida organofosfat yang dapat membasmi kutu jarum dan hama parasit
+						lainnya.
+						Penggunaan dipterex untuk mencegah timbulnya parasit di kolam Koi di lakukan dalam periode 2 mingguan, tentu
+						dengan dosis yang tepat. Terlebih dahulu bacalah petunjuk penggunaanya.
+
+						Jika anda menemukan koi yang terserang kutu jarum, maka yang dapat dilakukan adalah dengan cara mencabut
+						kutu jarum yang menempel pada tubuh koi tersebut dengan menggunakan pinset. Lakukan hal ini dengan hati-hati
+						agar jangan sampai kepala kutu masih tertinggal di dalam tubuh koi, sebab akan menyebabkan infeksi sekunder
+						lainnya. Setelah dilakukan pencabutan, maka akan meninggalkan luka pada tubuh Koi. Setelah dilakukan
+						pencabutan maka akan meninggalkan luka pada tubuh Koi. Oleh karena itu, jangan memberi larutan antiseptik
+						seperti merchurochrome pada bagian luka tersebut untuk mencegah terjadinya infeksi sekunder.</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+
+			<div class="small-card flex" id="jawab">
+				<div class="deep flex">
+					<img src="./images/forum/WhatsApp Image 2020-11-09 at 15.04.03.jpeg" alt="">
+					<div>
+						<h5>Sukijan</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan" id="jawab">
+				<dev class="kata">
+					<p>Baik,terimakasih atas penjelasannya.Untuk pencabutan apa tidak memerlukan standar khusus ? Misal seperti
+						ukuran / umur koi ?</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+			<div class="small-card2 flex">
+				<div class="deep flex">
+					<img src="./images/bagas.JPG" alt="">
+					<div>
+						<h5>Sukirman</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan">
+				<dev class="kata">
+					<p>Pencabutan kutu jarum sebaiknya dilakukan saat koi sudah berukuran besar.Jika ukuran koi dibawah 10cm,lebih
+						baik lakukan karantina dan pengobatan.Pengobatan bisa dilakukan dengan pemberian dimilin.Lakukan pengobatan
+						selama satu minggu.Dan perawatan kedua 10-14 hari tergantung dari ketahanan parasit.</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+
+			<div class="small-card flex" id="jawab">
+				<div class="deep flex">
+					<img src="./images/forum/WhatsApp Image 2020-11-09 at 15.04.03.jpeg" alt="">
+					<div>
+						<h5>Sukijan</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan" id="jawab">
+				<div class="kata">
+					<p>Oke,terimakasih</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="small-card2 flex" id="jawab">
+				<div class="deep flex">
+					<img src="./images/forum/WhatsApp Image 2020-11-09 at 15.04.03.jpeg" alt="">
+					<div>
+						<h5>Sukijan</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan" id="jawab">
+				<dev class="kata">
+					<p>Baik.Apakah penjelasan yang kami berikan sudah cukup membantu anda ? </p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+
+			<div class="small-card flex">
+				<div class="deep flex">
+					<img src="./images/bagas.JPG" alt="">
+					<div>
+						<h5>Sukirman</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan">
+				<dev class="kata">
+					<p>Sudah</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+
+			<div class="small-card2 flex" id="jawab">
+				<div class="deep flex">
+					<img src="./images/forum/WhatsApp Image 2020-11-09 at 15.04.03.jpeg" alt="">
+					<div>
+						<h5>Sukijan</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan" id="jawab">
+				<dev class="kata">
+					<p>Baik.Terimakasih sudah percaya dengan jasa konsultasi IWAKU.Berikan masukan dan saran anda pada Call Center
+						dan Layanan Pelanggan yang sudah tertera.Bantu kami menjadi lebih berkembang untuk memajukan kegiatan
+						Perikanan Indonesia.</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer1 flex">
+		<div class="content">
+			<img src="images/Logo 2.png" alt="">
+			<div class="tulisan">
+				<i>Jalan. Kalimantan No. 37, Kampus Tegalboto, Jember, Jawa Timur, 68121, Indonesia</i>
+			</div>
+		</div>
+		<div class="contennnn flex">
+			<div class="content ">
+				<h2>Hubungi kami</h2>
+				<ul>
+					<li>tanijaya@gmail.com</li>
+					<li>08212345xxx</li>
+					<li>08212345xxx</li>
+				</ul>
+			</div>
+			<div class="content">
+				<h2>Tautan</h2>
+				<ul>
+					<li><a href="#">Panduan registrasi</a></li>
+					<li><a href="#">Syarat dan ketentuan</a></li>
+					<li><a href="#">Kebijakan kami</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer2 flex">
+		<small>Copyright © 2020 Tani Jaya corporation. All rights reserved.</small>
+	</div>
+	<!-- modalbox -->
+	<div id="popUp1" class="popUp">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Send Us A Message
+				</span>
+
+				<div class="flex" style="margin-bottom: 1rem;">
+					<div class="send">
+						<i class="pesawat fa fa-paper-plane"></i>
+					</div>
+				</div>
+
+				<div class="wrap-input100 validate-input">
+					<input class="input100" type="text" name="email" placeholder="E-mail">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input">
+					<textarea class="input100" name="message" placeholder="Your Message"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							<!-- <i class="fa fa-paper-plane"></i> -->
+							Send
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/global.js"></script>
+	<script src="js/diskusi.js"></script>
+</body>
+
+</html>
