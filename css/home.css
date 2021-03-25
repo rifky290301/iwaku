@@ -3,7 +3,7 @@
   background: url("../images/home-ikan/header1.png");
   background-size: cover;
   /* padding: 30vh 30vmax 0 20vmin; */
-  padding: 15vmax 10vmin;
+  padding: 15vmax 10vmin !important;
   color: #fff;
   text-align: center;
 
