@@ -73,7 +73,7 @@
 }
 
 #biji {
-  background-image: url("../images/forum/BIJI.jpg");
+  background-image: url("../images/forum/alat.png");
   position: relative;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
@@ -86,7 +86,7 @@
 }
 
 #sayuran {
-  background-image: url("../images/forum/SAYURR.jpg");
+  background-image: url("../images/forum/akuarium.png");
   position: relative;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
@@ -99,7 +99,7 @@
 }
 
 #umbi {
-  background-image: url("../images/forum/UMBII.jpg");
+  background-image: url("../images/forum/pakan.png");
   position: relative;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
@@ -112,21 +112,8 @@
 }
 
 #buah {
-  background-image: url("../images/forum/BUAHH.jpg");
+  background-image: url("../images/forum/obat.png");
   position: relative;
-}
-
-#herbal {
-  background-image: url("../images/forum/OBAT.jpg");
-  position: relative;
-  filter: grayscale(1);
-  -webkit-filter: grayscale(1);
-  transition: .2s ease-in-out;
-}
-
-#herbal:hover {
-  filter: grayscale(0);
-  -webkit-filter: grayscale(0);
 }
 
 .percakapan h3 {
